@@ -1,5 +1,5 @@
-@import url(../vendor/normalize.css);
-@import url(../vendor/fonts.css);
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts.css);
 
 
 .page {
@@ -7,7 +7,7 @@
     height: 800px;
     margin: 0 auto;
     padding: 0;
-    background: url(../images/SP_SP_1_he_web_back.png) center no-repeat;
+    background: url(./images/SP_SP_1_he_web_back.png) center no-repeat;
 
 } 
 .header__logo {
@@ -78,7 +78,7 @@ color:white;
     Width:491px;
     Height:126px;
     color: white;
-    background: url(../images/SP_button.png) center no-repeat;
+    background: url(./images/SP_button.png) center no-repeat;
     border-radius: 30px;
     position: relative;
     margin-top: -10px;
