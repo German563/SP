@@ -61,6 +61,7 @@ line-height: 81px;
     width: 51px;
     height: 51px; 
     margin-left: 33px;
+    
 }
 .main__title {
 margin: 0 auto;
@@ -97,6 +98,7 @@ color:white;
 }
 .footer__contacts {
     margin-top: 60px;
+    margin-right: 60px;
     align-items: start;
     display: flex;
     justify-content: flex-end;
