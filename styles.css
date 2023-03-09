@@ -79,8 +79,8 @@ height: 46px;
 margin-left: 58px;
 }
 .main__title {
-    position: relative;
-    z-index: 3;
+position: relative;
+z-index: 3;
 width: 600px;
 font-family: 'Arimo', sans-serif;
 font-size: 35px;
@@ -88,8 +88,9 @@ font-weight: 500;
 line-height: 40px;
 text-align: center;
 color:white;
-
-
+margin: 0;
+margin-left: 60px;
+margin-bottom: 10px;
 }
 .main__phone {
 position: relative;
