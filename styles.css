@@ -6,6 +6,7 @@ body {
     padding: 0;
     background: url(./images/SP_SP_1_he_web_back.png) center no-repeat;
     background-size: cover;
+    overflow: hidden;
 
 } 
 a { color: inherit; 
@@ -41,21 +42,23 @@ z-index: 1;
 overflow-y: hidden;
 position: absolute;
 }
-
-.main__notes {
-    width: 980px;
-    height: 420px;
-    margin-left: 1200px;
-
-}
 .main {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-end;
 }
+.main__notes {
+    margin-right: 251px;
+    width: 980px;
+    height: 420px;
+}
+
 .main__items {
 display: flex;
 justify-content: flex-end;
- align-items: center;
+align-items: center;
 width: 980px;
 border-style: none;
 color:white;
@@ -67,13 +70,11 @@ line-height: 97px;
 
 }
 .main__dot {
-    width: 46px;
-    height: 46px; 
-    margin-left: 58px;
-    
+width: 46px;
+height: 46px; 
+margin-left: 58px;
 }
 .main__title {
-margin: 0 auto;
 width: 600px;
 font-family: 'Arimo', sans-serif;
 font-size: 35px;
@@ -81,19 +82,18 @@ font-weight: 500;
 line-height: 40px;
 text-align: center;
 color:white;
-padding: 22px;
+
 
 }
 .main__phone {
-    position: relative;
-    z-index: 2;
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-    Width:730px;
-    Height:151px;
-    color: white;
-    background: url(./images/SP_1920x1080.png) center no-repeat;
+position: relative;
+z-index: 2;
+display: flex;
+justify-content: center;
+Width:730px;
+Height:151px;
+color: white;
+background: url(./images/SP_1920x1080.png) center no-repeat;
 
 
 
@@ -118,7 +118,6 @@ padding: 22px;
 
 }
 .footer__contacts {
-    margin-top: 62px;
     margin-right: 79px;
     align-items: start;
     display: flex;
@@ -158,4 +157,5 @@ float: left;
 z-index: 3;
 bottom: 47px;
 left: 39px;
+margin: 0;
 }
