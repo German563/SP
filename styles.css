@@ -118,6 +118,7 @@ padding: 22px;
 
 }
 .footer__contacts {
+    margin-top: 62px;
     margin-right: 79px;
     align-items: start;
     display: flex;
