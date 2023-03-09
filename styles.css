@@ -1,50 +1,57 @@
 @import url(./vendor/normalize.css);
 @import url(./vendor/fonts.css);
 
-
-.page {
-    width: 1200px;
-    height: 800px;
-    margin: 0 auto;
+body {
+    margin: 0;
     padding: 0;
     background: url(./images/SP_SP_1_he_web_back.png) center no-repeat;
+    background-size: cover;
 
 } 
-
+a { color: inherit; 
+    text-decoration: none;
+} 
 .header__logo {
     position: absolute;
     top:0;
-    width: 125px;
-    height: 125px;
-    padding: 25px;
+    width: 181px;
+    height: 181px;
+    padding: 50px;
 
 }
 .header__title {
- padding: 50px 0 0 0;
- margin: 0;
- text-align: center;
+font-family: 'Arimo', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 69px;
 color: white;  
 font-size: 58px;
 line-height: 67px;
+width: 1200px;
+margin-left: auto;
+margin-top: 109px;
+margin-right: 70px;
 }
 
 .main__photo {
-
-width: 410px;
-height: 630px;
+width: 580px;
+height: 894px;
+z-index: 1;
+overflow-y: hidden;
 position: absolute;
-float:left;
-padding-top: 53px;
-z-index: 2;
 }
 
 .main__notes {
-    float: right;
-    margin-top: 37px;
-    margin-right: 56px;
-    height: 329px;
-}
+    width: 980px;
+    height: 420px;
+    margin-left: 1200px;
 
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
 .main__items {
 display: flex;
 justify-content: flex-end;
@@ -55,51 +62,63 @@ color:white;
 font-family: 'Arimo', sans-serif;
 font-style: normal;
 font-weight: 500;
-font-size: 35px;
-line-height: 81px;
+font-size: 45px;
+line-height: 97px;
+
 }
 .main__dot {
-    width: 51px;
-    height: 51px; 
-    margin-left: 33px;
+    width: 46px;
+    height: 46px; 
+    margin-left: 58px;
     
 }
 .main__title {
 margin: 0 auto;
-width: 400px;
+width: 600px;
 font-family: 'Arimo', sans-serif;
-font-size: 24px;
+font-size: 35px;
 font-weight: 500;
-line-height: 28px;
+line-height: 40px;
 text-align: center;
 color:white;
+padding: 22px;
+
 }
 .main__phone {
+    position: relative;
+    z-index: 2;
     display: flex;
     margin: 0 auto;
-    Width:491px;
-    Height:126px;
+    justify-content: center;
+    Width:730px;
+    Height:151px;
     color: white;
-    background: url(./images/SP_button.png) center no-repeat;
-    border-radius: 30px;
-    position: relative;
-    margin-top: -10px;
+    background: url(./images/SP_1920x1080.png) center no-repeat;
+
+
+
 }
 .main__phone__image {
     margin-left: 49px;
     padding-top: 25px;
-    height: 71px;
-    width: 71px;
+    height: 111px;
+    width: 101px;
 }
 .main__phone__number {
+    padding-right: 20px;
+    font-family: 'Arimo';
+    font-style: normal;
     margin: 30px 0 0 45px;
     font-size: 53px;
     line-height: 61px;
+    font-weight: 500;
+    font-size: 87px;
+    line-height: 100px;
     cursor: pointer;
+
 }
 .footer__contacts {
-    margin-top: 60px;
-    margin-right: 60px;
+    margin-right: 79px;
     align-items: start;
     display: flex;
     justify-content: flex-end;
@@ -108,9 +127,10 @@ color:white;
     color: white;
     flex-direction: row;
 
+
 }
 .footer__icon__text {
-margin-top: 22px;
+margin-top: 28px;
 font-family: 'Arimo', sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -120,12 +140,12 @@ text-align: center;
 float: left;
 }
 .social__icon {
-width: 41px;
-height: 40px;
-padding: 14px;
+width: 53px;
+height: 53px;
+padding: 15px;
 }
 .footer__copyright {
-position: relative;
+position: absolute;
 font-family: 'Arimo', sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -135,6 +155,6 @@ text-align: center;
 color: white;
 float: left;
 z-index: 3;
-margin-left: 6px;
-margin-top: -10px;
+bottom: 47px;
+left: 39px;
 }
