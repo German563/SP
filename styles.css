@@ -2,7 +2,7 @@
 @import url(./vendor/fonts.css);
 
 body {
-    background: url(./images/SP_SP_1_he_web_back.png);
+    background: url(./images/SP_1920x1080_together_1_HD_he_web_back.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -38,6 +38,7 @@ margin-right: 180px;
 }
 
 .main__photo {
+    display: none;
 height: 894px;
 z-index: 1;
 overflow-y: hidden;
