@@ -2,12 +2,8 @@
 @import url(./vendor/fonts.css);
 
 body {
-    margin: 0;
-    padding: 0;
     background: url(./images/SP_SP_1_he_web_back.png) center no-repeat;
     background-size: cover;
-    overflow: hidden;
-
 } 
 a { color: inherit; 
     text-decoration: none;
@@ -29,10 +25,11 @@ line-height: 69px;
 color: white;  
 font-size: 58px;
 line-height: 67px;
-width: 1200px;
+width: 960px;
 margin-left: auto;
 margin-top: 109px;
-margin-right: 70px;
+margin-right: 180px;
+
 }
 
 .main__photo {
@@ -41,6 +38,7 @@ height: 894px;
 z-index: 1;
 overflow-y: hidden;
 position: absolute;
+bottom: 0;
 }
 .main {
     display: flex;
@@ -50,9 +48,10 @@ position: absolute;
     align-content: flex-end;
 }
 .main__notes {
-    margin-right: 251px;
-    width: 980px;
-    height: 420px;
+min-width: 600px;
+margin-left: 200px;
+margin-right: 200px;
+
 }
 
 .main__items {
