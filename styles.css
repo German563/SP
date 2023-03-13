@@ -205,7 +205,7 @@ background: url(./images/SP_1920x1080.png) center no-repeat;
     flex-direction: row;
     padding-top: 50px;
     margin-bottom: 0;
-
+    margin-top: 0;
 
 }
 .footer__contacts_ru {
@@ -221,6 +221,7 @@ background: url(./images/SP_1920x1080.png) center no-repeat;
     padding-top: 50px;
     margin-bottom: 0;
     flex-direction: row-reverse;
+    margin-top: 0;
 }
 .footer__icon__text {
 margin-top: 28px;
@@ -255,7 +256,7 @@ position: absolute;
 font-family: 'Arimo', sans-serif;
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
+font-size: 16px;
 line-height: 15px;
 text-align: center;
 color: white;
@@ -270,15 +271,14 @@ margin: 0;
     font-family: 'Arimo', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 15px;
     text-align: center;
     color: white;
     z-index: 3;
-    bottom: 47px;
+    bottom: 5px;
     right: 39px;
     margin: 0;
     }
 
-/* ru section */
 
