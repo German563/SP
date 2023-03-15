@@ -253,7 +253,7 @@
     color: white;
     float: left;
     z-index: 3;
-    bottom: 47px;
+    bottom: 5px;
     left: 39px;
     margin: 0;
   }
@@ -597,6 +597,9 @@ display: flex;
 
   }
   .footer__copyright {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
     font-family: "Arimo", sans-serif;
 font-size: 9px;
 font-weight: 400;
@@ -610,7 +613,10 @@ opacity: 0.5;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
   .footer__copyright_ru {
+    position: absolute;
 font-family: "Arimo", sans-serif;
+bottom: 5px;
+left: 5px;
 font-size: 9px;
 font-weight: 400;
 line-height: 10px;
