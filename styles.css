@@ -1,55 +1,39 @@
 @import url(./vendor/normalize.css);
 @import url(./vendor/fonts.css);
- 
-a { color: inherit; 
+@media (min-width: 728px) and (max-width: 3350px) {
+  a {
+    color: inherit;
     text-decoration: none;
-} 
+  }
 
-.he-page {
-    background: url(./images/SP_1920x1080_together_1_HD_he_web_back.png) no-repeat center center fixed;;
-     background-size: cover;
-     min-height: 100vh;
-     display: none;
-
-}
-.ru-page {
-    background: url(./images/SP_1920x1080_together_1_HD_ru_web_back.png) no-repeat center center fixed;;
-     background-size: cover;
-     min-height: 100vh;
-     /* display: none; */
-
-}
-.header__logo {
+  .he-page {
+    background: url(./images/SP_1920x1080_together_1_HD_he_web_back.png)
+      no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: none;
+  }
+  .ru-page {
+    background: url(./images/SP_1920x1080_together_1_HD_ru_web_back.png)
+      no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    /* display: none; */
+  }
+  .header__logo {
     position: absolute;
-    top:0;
+    top: 0;
     width: 181px;
     height: 181px;
     padding: 50px;
-
-
-}
-.header__title {
-font-family: 'Arimo', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 60px;
-line-height: 69px;
-color: white;  
-font-size: 58px;
-line-height: 67px;
-width: 960px;
-margin-left: auto;
-padding-top: 109px;
-margin-right: 180px;
-margin-top: 0;
-}
-.header__title {
-    font-family: 'Arimo', sans-serif;
+  }
+  .header__title {
+    font-family: "Arimo", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 60px;
     line-height: 69px;
-    color: white;  
+    color: white;
     font-size: 58px;
     line-height: 67px;
     width: 960px;
@@ -57,65 +41,78 @@ margin-top: 0;
     padding-top: 109px;
     margin-right: 180px;
     margin-top: 0;
-    }
-    .header__title_ru {
-        font-family: 'Arimo', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 60px;
-        line-height: 69px;
-        color: white;  
-        font-size: 49px;
-        line-height: 56.35px;
-        width: 990px;
-        margin-right: auto;
-        padding-left: 272px;
-        padding-top: 109px;
-        margin-top: 0;
+  }
+  .header__title {
+    font-family: "Arimo", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    color: white;
+    font-size: 58px;
+    line-height: 67px;
+    width: 960px;
+    margin-left: auto;
+    padding-top: 109px;
+    margin-right: 180px;
+    margin-top: 0;
+  }
+  .header__title_ru {
+    font-family: "Arimo", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    color: white;
+    font-size: 49px;
+    line-height: 56.35px;
+    width: 990px;
+    margin-right: auto;
+    padding-left: 272px;
+    padding-top: 109px;
+    margin-top: 0;
+  }
 
-        }
-
-.main {
+  .main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-content: flex-end;
-}
-.main__notes {
+  }
+  .main__notes {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     margin-right: 80px;
-}
-.main__notes_ru {
+  }
+  .main__notes_ru {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-left: 180px;
-}
+  }
 
-.main__items {
-display: flex;
-justify-content: flex-end;
-align-items: center;
-width: 980px;
-border-style: none;
-color:white;
-font-family: 'Arimo', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 45px;
-line-height: 97px;
-
-}
-.main__items_ru {
+  .main__items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 980px;
+    border-style: none;
+    color: white;
+    font-family: "Arimo", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 97px;
+  }
+  .main__items_ru {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     width: 820px;
     border-style: none;
     color: white;
-    font-family: 'Arimo', sans-serif;
+    font-family: "Arimo", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 42px;
@@ -124,65 +121,63 @@ line-height: 97px;
     align-content: stretch;
     margin-left: 120px;
     padding: 25px;
-
- }
-.main__dot {
-width: 46px;
-height: 46px; 
-margin-left: 58px;
-}
-.main__dot_ru {
+  }
+  .main__dot {
     width: 46px;
-    height: 46px; 
+    height: 46px;
+    margin-left: 58px;
+  }
+  .main__dot_ru {
+    width: 46px;
+    height: 46px;
     margin-right: 58px;
-
-    }
-.main__title {
-position: relative;
-z-index: 3;
-font-family: 'Arimo', sans-serif;
-font-size: 35px;
-font-weight: 500;
-line-height: 40px;
-text-align: center;
-color:white;
-margin: 0;
-margin-left: 60px;
-margin-bottom: 10px;
-margin-top: 80px;
-}
-.main__title_ru {
+  }
+  .main__title {
     position: relative;
     z-index: 3;
-    font-family: 'Arimo', sans-serif;
+    font-family: "Arimo", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    margin-top: 80px;
+  }
+  .main__title_ru {
+    position: relative;
+    z-index: 3;
+    font-family: "Arimo", sans-serif;
     font-size: 30px;
     font-weight: 500;
     line-height: 34.5px;
     text-align: center;
-    color:white;
+    color: white;
     text-shadow: black 3px 0 10px;
     margin: 0;
     margin-bottom: 10px;
     margin-top: 20px;
-    }
-.main__phone {
-position: relative;
-z-index: 2;
-display: flex;
-justify-content: center;
-Height:151px;
-color: white;
-background: url(./images/SP_1920x1080.png) center no-repeat;
-}
-.main__phone__image {
+  }
+  .main__phone {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    height: 151px;
+    color: white;
+    background: url(./images/SP_1920x1080.png) center no-repeat;
+  }
+  .main__phone__image {
     margin-left: 49px;
     padding-top: 25px;
     height: 111px;
     width: 101px;
-}
-.main__phone__number {
+  }
+  .main__phone__number {
     padding-right: 20px;
-    font-family: 'Arimo';
+    font-family: "Arimo";
     font-style: normal;
     margin: 22px 0 0 45px;
     font-size: 53px;
@@ -191,9 +186,8 @@ background: url(./images/SP_1920x1080.png) center no-repeat;
     font-size: 87px;
     line-height: 100px;
     cursor: pointer;
-
-}
-.footer__contacts {
+  }
+  .footer__contacts {
     position: relative;
     z-index: 2;
     padding-right: 79px;
@@ -207,9 +201,8 @@ background: url(./images/SP_1920x1080.png) center no-repeat;
     padding-top: 50px;
     margin-bottom: 0;
     margin-top: 0;
-
-}
-.footer__contacts_ru {
+  }
+  .footer__contacts_ru {
     position: relative;
     z-index: 2;
     padding-right: 79px;
@@ -223,53 +216,51 @@ background: url(./images/SP_1920x1080.png) center no-repeat;
     margin-bottom: 0;
     flex-direction: row-reverse;
     margin-top: 0;
-}
-.footer__icon__text {
-margin-top: 28px;
-font-family: 'Arimo', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 23px;
-text-align: center;
-float: left;
-}
-.footer__icon__text_ru {
+  }
+  .footer__icon__text {
     margin-top: 28px;
-    font-family: 'Arimo', sans-serif;
+    font-family: "Arimo", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    float: left;
+  }
+  .footer__icon__text_ru {
+    margin-top: 28px;
+    font-family: "Arimo", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
     text-align: center;
     float: right;
-    }
-.social__icon {
-width: 53px;
-height: 53px;
-padding: 15px;
-}
-.social__icons_ru {
+  }
+  .social__icon {
+    width: 53px;
+    height: 53px;
+    padding: 15px;
+  }
 
-    }
-.footer__copyright {
-position: absolute;
-font-family: 'Arimo', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 15px;
-text-align: center;
-color: white;
-float: left;
-z-index: 3;
-bottom: 47px;
-left: 39px;
-margin: 0;
-}
-.footer__copyright_ru {
+  .footer__copyright {
     position: absolute;
-    font-family: 'Arimo', sans-serif;
+    font-family: "Arimo", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    color: white;
+    float: left;
+    z-index: 3;
+    bottom: 47px;
+    left: 39px;
+    margin: 0;
+  }
+  .footer__copyright_ru {
+    position: absolute;
+    font-family: "Arimo", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -280,6 +271,227 @@ margin: 0;
     bottom: 5px;
     right: 39px;
     margin: 0;
-    }
+  }
+}
+.header__logo-mobile{
+    display: none;
+}
+.header__title_ru-mobile {
+    display: none;
+}
+.footer__contacts_ru-mobile {
+    display: none;
+}
+.column-wrapper {
+    display: none;
+}
+@media (min-width: 320px) and (max-width: 727px) {
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .footer {
+    width: 320px;
+  }
+  .he-page {
+    background: url(./images/SP_1920x1080_together_1_HD_he_web_back.png)
+      no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: none;
+  }
+  .ru-page {
+    background: url(./images/back-mobile-ru.png) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    /* display: none; */
+  }
+  .header__logo {
+    display: none;
+  }
+  .header__logo-mobile {
+    display: block;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 47px;
+    left: 17px;
+  }
+  .header__title {
+  }
+  .header__title_ru {
+    display: none;
+  }
+  .header__title_ru-mobile {
+    display: block;
+    font-family: "Arimo", sans-serif;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    width: 177px;
+    height: 103px;
+    margin: 0;
+    margin-left: 117px;
+    padding-top: 42px;
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-end;
+  }
+  .main__notes {
+  }
+  .main__notes_ru {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 17px;
+  }
 
+  .main__items {
+  }
+  .main__items_ru {
+    display: flex;
+    height: 35px;
+    align-items: center;
+    width: 194px;
+    border-style: none;
+    color: white;
+    font-family: "Arimo", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    text-align: left;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: flex-start;
+    margin-top: 14px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .main__dot_ru {
+    width: 18px;
+    height: 17px;
+    margin-right: 10px;
+  }
 
+  .main__title {
+  }
+  .main__title_ru {
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Arimo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    width: 180px;
+    margin: 0 auto;
+    padding-right: 50px;
+  }
+  .main__phone {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    width: 260px;
+    height: 52px;
+    color: white;
+    border-radius: 40px;
+    background: url(./images/button-mobile.png) center no-repeat;
+    margin: 5px 20px;
+    font-family: "Arimo";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 39px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .main__phone__image {
+    margin-top: 3px;
+    width: 46px;
+    height: 46px;
+  }
+  .main__phone__number {
+    margin: 5px;
+  }
+  .footer__contacts {
+  }
+  .footer__contacts_ru {
+    display: none;
+
+  }
+  .footer__contacts_ru-mobile{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    cursor: pointer;
+    color: white;
+    align-items: start;
+    flex-direction: row-reverse;
+    margin-left: -30px;
+
+  }
+  .wrapper-mobile {
+    display: flex;
+  }
+  .icons-mobile {
+    display: flex;
+  }
+  .column-wrapper {
+    display: flex;
+    width: 280px;
+  }
+  .footer__icon__text {
+  }
+  .column-wrapper2 {
+    display: none;
+  }
+  .footer__icon__text_ru {
+    display: flex;
+    font-family: "Arimo", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+  }
+  .footer-ru-text {
+    margin-left: 3px;
+    margin-top: 5px;
+    display: block;
+    float: right;
+  }
+  .footer__icons_ru {
+
+  }
+  .social__icon {
+  }
+  .social__icons_ru {
+    height: 24px;
+    width: 24px;
+    float: left;
+  }
+  .footer__copyright {
+  }
+  .footer__copyright_ru {
+font-family: "Arimo", sans-serif;
+font-size: 9px;
+font-weight: 400;
+line-height: 10px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+display: flex;
+flex-direction: row-reverse;
+opacity: 0.5;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
