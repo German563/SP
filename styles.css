@@ -5,20 +5,32 @@
     color: inherit;
     text-decoration: none;
   }
-
+  .language {
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    float: right;
+    margin: 15px 24px 0 0;
+    cursor: pointer;
+      }
   .he-page {
     background: url(./images/SP_1920x1080_together_1_HD_he_web_back.png)
       no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh;
-    display: none;
+ 
   }
   .ru-page {
     background: url(./images/SP_1920x1080_together_1_HD_ru_web_back.png)
       no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh;
-    /* display: none; */
+    display: none;
   }
   .header__logo {
     position: absolute;
@@ -285,7 +297,27 @@
 .column-wrapper {
     display: none;
 }
+.mobile-icon-row {
+    display: none;
+}
 @media (min-width: 320px) and (max-width: 727px) {
+    .language {
+        font-family: 'Arimo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: transparent;
+        border: none;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        float: right;
+        margin: 4px 8px 0 0;
+        cursor: pointer;
+          }
+
+
   a {
     color: inherit;
     text-decoration: none;
@@ -304,7 +336,7 @@
     background: url(./images/back-mobile-ru.png) no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh;
-    /* display: none; */
+
   }
   .header__logo {
     display: none;
@@ -474,10 +506,14 @@
   }
   .social__icon {
   }
-  .social__icons_ru {
+  .social__icons_mobile {
     height: 24px;
     width: 24px;
     float: left;
+    padding-left: 8px;
+  }
+  .mobile-icon-row {
+    margin-left: 12px;
   }
   .footer__copyright {
   }
@@ -494,4 +530,10 @@ flex-direction: row-reverse;
 opacity: 0.5;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
+  .mobile-icon-row {
+    display: flex;
+    list-style: none;
+}
+
+
 }
