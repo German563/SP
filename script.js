@@ -17,3 +17,17 @@ const moveElement = () => {
   for (let i = 0; i < languageButton.length; i++) {
     languageButton[i].addEventListener('click', moveElement);
   }
+
+  const phoneNumber = document.querySelector('.main__phone__number');
+ 
+let i = 0;
+
+let isBlue = false;
+
+setInterval(() => {
+  const textArray = phoneNumber.textContent.split('');
+  phoneNumber.innerHTML = textArray
+    .map((char, i) => `<span class="${(i % 2 === 1) ? (isBlue ? 'blue' : '') : ''}">${char}</span>`)
+    .join('');
+  isBlue = !isBlue;
+}, 1000);

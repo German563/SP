@@ -188,7 +188,14 @@
     font-size: 87px;
     line-height: 100px;
     cursor: pointer;
+    transition: 3s linear;
   }
+  .blue {
+    color: #2a63d5;
+  }
+  /* .main__phone__number:hover  {
+    color: blue;
+  } */
   .footer__contacts {
     position: relative;
     z-index: 2;
@@ -315,6 +322,9 @@
   a {
     color: inherit;
     text-decoration: none;
+  }
+  .blue {
+    color: #2a63d5;
   }
   .footer {
 
