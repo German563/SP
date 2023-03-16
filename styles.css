@@ -587,20 +587,29 @@ display: flex;
   .footer__icons_ru {
 
   }
-  .social__icon {
-  }
+  /* .social__icon:hover {
+    opacity: 0.8;
+  } */
   .social__icons_mobile {
     height: 24px;
     width: 24px;
     float: left;
     padding-left: 8px;
   }
+  /* .social__icons_mobile:hover {
+    opacity: 0.1; */
+
+  /* } */
   .social__icons_mobile-he {
     height: 24px;
     width: 24px;
     float: right;
     display: block;
   }
+  /* .social__icons_mobile-he:hover {
+    opacity: 0.1;
+
+  } */
   .mobile-icon-row {
     margin-left: 26px;
   }

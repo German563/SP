@@ -22,12 +22,12 @@ const moveElement = () => {
  
 let i = 0;
 
-let isBlue = false;
+// let isBlue = false;
 
-setInterval(() => {
-  const textArray = phoneNumber.textContent.split('');
-  phoneNumber.innerHTML = textArray
-    .map((char, i) => `<span class="${(i % 2 === 1) ? (isBlue ? 'blue' : '') : ''}">${char}</span>`)
-    .join('');
-  isBlue = !isBlue;
-}, 1000);
+// setInterval(() => {
+//   const textArray = phoneNumber.textContent.split('');
+//   phoneNumber.innerHTML = textArray
+//     .map((char, i) => `<span class="${(i % 2 === 1) ? (isBlue ? 'blue' : '') : ''}">${char}</span>`)
+//     .join('');
+//   isBlue = !isBlue;
+// }, 1000);
