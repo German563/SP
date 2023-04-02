@@ -22,15 +22,14 @@
     background: url(./images/SP_1920x1080_together_1_HD_he_web_back.png)
       no-repeat center center fixed;
     background-size: cover;
-    min-height: 100vh;
- 
+ height: 100vh;
   }
   .ru-page {
     background: url(./images/SP_1920x1080_together_1_HD_ru_web_back.png)
       no-repeat center center fixed;
     background-size: cover;
-    min-height: 100vh;
     display: none;
+    height: 100vh;
   }
   .header__logo {
     position: absolute;
@@ -168,8 +167,28 @@
     background: url(./images/SP_1920x1080.png) center no-repeat;
     margin: 0;
   }
-  .main__phone:hover .main__phone__image {
-    transform: scale(1.2);
+  
+  .main__phone .main__phone__image {
+    animation-name: phone-animation;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes phone-animation {
+    0% {
+      transform: scale(1) rotate(0);
+    }
+    50% {
+      transform: scale(1.2) rotate(-11.31deg);
+    }
+    100% {
+      transform: scale(1) rotate(0);
+    }
+  }
+  
+  .main__phone .main__phone__image {
+    transform: scale(1) rotate(0);
   }
   .main__phone__image {
     margin-left: 49px;
@@ -633,6 +652,7 @@ line-height: 10px;
 letter-spacing: 0em;
 text-align: center;
 color: white;
+
 opacity: 0.5;
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
